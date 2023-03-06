@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="shortcut icon" href="img/icons8-dente-64.png" type="image/x-icon">
+    <title>Produtos</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header-cima container">
+            <ul>
+                <a href="index.html">
+                    <img src="img/icons8-dente-64.png" alt="logo">
+                </a>
+                <form action="">
+                    <input type="search" name="pesquisa" id="pesquisa" placeholder="Pesquise aqui um produto....">
+                    <img src="img/icons8-pesquisar-50.png" alt="lupa" id="lupa">
+                </form>
+                <div class="botoes-cima">
+                    <img src="/img/icons8-carrinho-de-compras-48.png" alt="carrinho">
+                </div>
+            </ul>
+        </nav>
+        <div class="header-baixo-bg">
+            <div class="header-baixo container">
+                <div class="header-baixo-conteudo">
+                    <div class="design-barras-categorias">
+                        <span class="barras-brancas"></span>
+                        <span class="barras-brancas"></span>
+                        <span class="barras-brancas"></span>
+                    </div>
+                    <div class="text-categorias">
+                        <p>Todas as Categorias</p>
+                    </div>
+                </div>
+                <div class="header-baixo-botoes container">
+                    <ul class="header-botoes">
+                        <li class="header-botoes-li">Equipamentos</li>
+                        <hr>
+                        <li class="header-botoes-li">Descartáveis</li>
+                        <hr>
+                        <li class="header-botoes-li">Instrumentos Odontológicos</li>
+                        <hr>
+                        <li class="header-botoes-li" id="melhores">Melhores Ofertas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="banner-topo">
+            <img src="img/banner-product.png"
+                alt="imagem de um aparelho odontológico usado para fazer um raio-x da boca do paciente.">
+        </div>
+
+        <div class="carrossel-marcas">
+            <h1>Pesquisar por marca</h1>
+            <ul>
+                <li><img src="img/marca-carrossel.png" alt="logomarca"></li>
+                <li><img src="img/marca-carrossel.png" alt="logomarca"></li>
+                <li><img src="img/marca-carrossel.png" alt="logomarca"></li>
+                <li><img src="img/marca-carrossel.png" alt="logomarca"></li>
+                <li><img src="img/marca-carrossel.png" alt="logomarca"></li>
+            </ul>
+            <div class="carrossel-spans">
+                <span class="spans"></span>
+                <span class="spans"></span>
+                <span class="spans"></span>
+                <span class="spans"></span>
+                <span class="spans"></span>
+            </div>
+
+        </div>
+
+        <div>
+            <div class="ordenar-page">
+                <h2>Ordenar:</h2>
+
+                <select id="sorter" name="options" size="1">
+                    <option>Preço crescente
+                    <option>Preço decrescente
+                    <option>Ordem alfabética
+                    <option>Mais comprados
+                </select>
+            </div>
+
+            <ul class="lista-produtos" id="product-list">
+
+            </ul>
+        </div>
+
+        <div class="trocar-pagina">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+        </div>
+
+    </main>
+    <footer>
+        <div class="container footer-conteudo">
+
+            <ul class="lista-contato">
+                <li>
+                    <img src="img/watsapp.png">
+                    <span>
+                        +55 99999999999
+                    </span>
+                </li>
+                <li>
+                    <img src="img/gmail.png">
+                    <span>
+                        email@.com
+                    </span>
+                </li>
+            </ul>
+
+            <div class="lista-redes">
+                <span>Redes Sociais</span>
+                <ul class="lista-redes-sociais">
+                    <li>
+                        <img src="img/facebook.png">
+                    </li>
+                    <li>
+                        <img src="img/instagram.png">
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="footer-baixo">
+            Nome da loja 2023
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="products.js"></script>
+</body>
+
+</html>
